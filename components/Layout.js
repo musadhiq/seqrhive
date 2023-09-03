@@ -52,7 +52,7 @@ export default function Main() {
         <div className="text-black">
           <div className="mx-auto flex flex-col items-center gap-10 pt-32 lg:flex-row">
             <div className="lg:mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6 bg-white ">
-              <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" index="1">
+              <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" data-index="1">
                 Web Development
               </h2>
               <p className="font-3xl mb-8 font-semibold leading-relaxed">
@@ -72,7 +72,7 @@ export default function Main() {
                 <img className="w-4/6" src="/images/app-development.svg" alt="img" />
               </div>
               <div className="flex flex-col pt-0 text-left lg:w-1/2 lg:flex-grow lg:items-start lg:pl-16 lg:pl-24 lg:pt-24 bg-white ">
-                <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" index="2">
+                <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" data-index="2">
                   App Development
                 </h2>
                 <p className="mb-8 font-semibold leading-relaxed text-black">
@@ -89,7 +89,7 @@ export default function Main() {
           </div>
           <div className=" mx-auto flex flex-col items-center gap-10  lg:flex-row">
             <div className="lg:mb-16 flex flex-col text-left lg:mb-0 lg:w-1/2 lg:flex-grow lg:items-start lg:pr-16 lg:pr-6 bg-white ">
-              <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" index="3">
+              <h2 className="mb-4 text-4xl font-bold leading-none sm:text-5xl service-title" data-index="3">
                 Security
               </h2>
               <p className="font-3xl mb-8 font-semibold leading-relaxed">
