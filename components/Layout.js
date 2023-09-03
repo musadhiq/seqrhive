@@ -143,20 +143,20 @@ export default function Main() {
                   Still, have doubts? Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
                 </h3>
               </div>
-              <form action="#" class="space-y-8 bg-white ">
+              <form action="#" className="space-y-8 bg-white ">
                 <div>
-                  <label for="email" class="block mb-2 text-sm font-medium text-black">Your email <span className="text-[#485ED8]">(so we can reply you)</span></label>
-                  <input type="email" id="email" class="shadow-sm bg-white border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="name@example.com" required />
+                  <label htmlFor="email" className="block mb-2 text-sm font-medium text-black">Your email <span className="text-[#485ED8]">(so we can reply you)</span></label>
+                  <input type="email" id="email" className="shadow-sm bg-white border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="name@example.com" required />
                 </div>
                 <div>
-                  <label for="subject" class="block mb-2 text-sm font-medium text-black">Subject</label>
-                  <input type="text" id="subject" class="block p-3 w-full text-sm text-black bg-white rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Let us know how we can help you" required />
+                  <label htmlFor="subject" className="block mb-2 text-sm font-medium text-black">Subject</label>
+                  <input type="text" id="subject" className="block p-3 w-full text-sm text-black bg-white rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="Let us know how we can help you" required />
                 </div>
-                <div class="sm:col-span-2">
-                  <label for="message" class="block mb-2 text-sm font-medium text-black">Your message</label>
-                  <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                <div className="sm:col-span-2">
+                  <label htmlFor="message" className="block mb-2 text-sm font-medium text-black">Your message</label>
+                  <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-black bg-white rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
                 </div>
-                <button type="submit" class="primary-btn bg-[#485ED8]">Send message</button>
+                <button type="submit" className="primary-btn bg-[#485ED8]">Send message</button>
               </form>
             </div>
           </div>
