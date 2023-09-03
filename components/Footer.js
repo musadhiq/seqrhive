@@ -5,88 +5,62 @@ export default function Footer() {
     <>
       <footer className="grotesk bg-[#f9fbfb]">
         <div className="max-w-8xl mx-auto px-5 py-24 text-black">
-          <div className="order-first flex flex-wrap text-left">
+          <div className="order-first flex flex-wrap text-left lg:justify-around">
             <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Est.</h2>
+              <h2 className="mb-3 text-lg tracking-widest">SERVICES</h2>
               <nav className="list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Vitae nec.</a>
+                  <a href="/">Web development</a>
                 </li>
                 <li>
-                  <a href="/">Purus</a>
+                  <a href="/">App Development</a>
                 </li>
                 <li>
-                  <a href="/">Nibh.</a>
-                </li>
-                <li>
-                  <a href="/">Proin semper justo.</a>
-                </li>
-                <li>
-                  <a href="/">Blandit.</a>
-                </li>
-                <li>
-                  <a href="/">Malesuada.</a>
+                  <a href="/">Security</a>
                 </li>
               </nav>
             </div>
             <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Et.</h2>
+              <h2 className="mb-3 text-lg tracking-widest">INDUSTRIES.</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Ninc elementum.</a>
+                  <a href="/">Fintech</a>
                 </li>
                 <li>
-                  <a href="/">Sit ac interdum</a>
+                  <a href="/">Insurance</a>
                 </li>
                 <li>
-                  <a href="/">Ac ut cras.</a>
+                  <a href="/">Healthcare & Biotech</a>
                 </li>
                 <li>
-                  <a href="/">Sed ipsum lobortis.</a>
+                  <a href="/">Travel & Hospitality</a>
                 </li>
                 <li>
-                  <a href="/">Nulla maecenas nunc.</a>
+                  <a href="/">eCommerce & Retail</a>
                 </li>
                 <li>
-                  <a href="/">Purus</a>
+                  <a href="/">Logistics & Transportation</a>
                 </li>
               </nav>
             </div>
             <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Placerat.</h2>
+              <h2 className="mb-3 text-lg tracking-widest">COMPANY.</h2>
               <nav className="mb-10 list-none space-y-2 py-3">
                 <li>
-                  <a href="/">Et cursus fringilla.</a>
+                  <a href="/">About</a>
                 </li>
                 <li>
-                  <a href="/">In velit sagittis.</a>
+                  <a href="/">Services</a>
                 </li>
                 <li>
-                  <a href="/">Mattis.</a>
+                  <a href="/">Team</a>
                 </li>
                 <li>
-                  <a href="/">Est.</a>
+                  <a href="/">Careers</a>
                 </li>
               </nav>
             </div>
-            <div className="w-full px-4 md:w-2/4 lg:w-1/5">
-              <h2 className="mb-3 text-lg tracking-widest">Messa.</h2>
-              <nav className="mb-10 list-none space-y-2 py-3">
-                <li>
-                  <a href="/">Id.</a>
-                </li>
-                <li>
-                  <a href="/">Aliquam.</a>
-                </li>
-                <li>
-                  <a href="/">Interdum.</a>
-                </li>
-                <li>
-                  <a href="/">Risus.</a>
-                </li>
-              </nav>
-            </div>
-            <div className="w-full md:w-2/4 lg:w-1/5">
+            <div className="w-full md:w-2/3 lg:w-1/5">
               <a href="/">
                 <div className="relative border border-black transition hover:border-gray-500">
                   <div className="absolute top-0 right-0 pt-2 pr-2">
@@ -108,8 +82,7 @@ export default function Footer() {
                     </svg>
                   </div>
                   <div className="p-6">
-                    Lorem ipsum accumsan arcu, consectetur adipiscing elit.
-                    Consequat arcu.
+                    Have a coffee with us
                   </div>
                 </div>
               </a>
@@ -118,36 +91,10 @@ export default function Footer() {
         </div>
         <div className="px-2">
           <div className="max-w-8xl mx-auto px-5 py-6">
-            <h2 className="text-black">Diam egestas ultrices odio vitae.</h2>
             <div>
               <h2 className="my-4 text-sm">
-                Lorem ipsum accumsan arcu, consectetur adipiscing elit. Dolor
-                proin tempor sed fermentum sit{" "}
-                <br className="hidden lg:inline-block" /> pretium pellentesque.
-                Dictumst risus elementum dignissim risus, lobortis molestie.
+              © 2023 Seqrhive. All Rights Reserved.
               </h2>
-            </div>
-            <div className="absolute right-0 -mt-24 hidden text-black lg:inline-block">
-              <a href="/" className="mr-16">
-                Terms & Conditions
-              </a>
-              <a href="/" className="mr-16">
-                Privacy Policy
-              </a>
-              <a href="/" className="mr-16">
-                Cookie Policy
-              </a>
-            </div>
-            <div className="right-0 inline-block pt-12 pb-6 pr-20 text-sm text-black md:hidden">
-              <a href="/" className="mr-16">
-                Terms & Conditions
-              </a>
-              <a href="/" className="mr-16">
-                Privacy Policy
-              </a>
-              <a href="/" className="mr-16">
-                Cookie Policy
-              </a>
             </div>
           </div>
         </div>

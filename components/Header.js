@@ -3,61 +3,48 @@
 export default function Header() {
   return (
     <>
-      <div
-        className="
-        bg-blue
-        grotesk
-        absolute
-        top-0
-        h-7
-        w-full 
-        text-center
-        text-sm
-        leading-6
-        text-white
-      "
-      >
-        Scelerisque egestas et euismod.
-        <a href="/" className="pl-3 underline">
-          Take me there
-        </a>
-      </div>
-      <div className="grotesk mt-6 mb-16 flex items-center justify-between py-4 px-4 sm:mx-0 sm:mb-20 sm:px-0 md:px-6">
-        <div className="mt-4 inline-block pb-4 pl-8">
+      <div className="grotesk mt-3 mb-16 flex items-center justify-between py-4  sm:mx-0 sm:mb-20 sm:px-0 md:px-6">
+        <div className="mt-4 inline-block pb-4 ">
           <a href="/" className="align-middle text-3xl font-bold text-black">
-            NINE4
+            SeqrHive
           </a>
           <div className="hidden pl-14 align-middle xl:inline-block">
-            <a href="/" className="pr-12 text-xl text-black">
-              Cras.
+            <a href="#services" className="pr-12 text-xl text-black service-hover">
+              Services.
+              <div className="service-hover-box">
+                <div className="w-full px-4 py-4">
+                  <nav className="list-none">
+                    <li className="py-2">
+                      <a href="/">Web development</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/">App Development</a>
+                    </li>
+                    <li className="py-2">
+                      <a href="/">Security</a>
+                    </li>
+                  </nav>
+                </div>
+              </div>
             </a>
             <a href="/" className="pr-12 text-xl text-black">
-              Cras.
+              About us.
             </a>
             <a href="/" className="pr-12 text-xl text-black">
-              Fringilla.
-            </a>
-            <a href="/" className="text-xl text-black">
-              Enim.
+              Contact.
             </a>
           </div>
         </div>
         <div className="flex items-center">
           <div className="hidden py-1 text-right xl:inline-block">
             <a
-              className="mt-2 inline-flex items-center px-12 py-3 text-lg font-semibold tracking-tighter text-black"
+              className="primary-btn mt-2"
               href="/"
             >
-              Log in
-            </a>
-            <a
-              className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
-              href="/"
-            >
-              Request a demo
+              Request a call back
             </a>
           </div>
-          <button className="pr-12 pl-4">
+          <button className="lg:pr-12 pl-4">
             <svg
               className="mr-auto inline-block text-black xl:hidden"
               width="33"
