@@ -3,7 +3,7 @@
 
 export default function Main() {
   return (
-    <div className="grotesk max-w-8xl mx-auto grid-container">
+    <div className="grotesk max-w-8xl mx-auto grid-container mt-48">
       <div className="grid-lines">
         <span className="line line-1"></span>
         <span className="line line-2"></span>
@@ -22,7 +22,7 @@ export default function Main() {
               and your <span className="text-[#485ED8]"> digital</span> life
             </h2>
 
-            <p className="mt-8 max-w-6xl  text-xl font-semibold text-[#404040]">
+            <p className="mt-8 max-w-6xl  text-xl font-semibold text-[#404040]  bg-white">
               In today's interconnected and technology-driven landscape, ensuring the safety and confidentiality of our digital assets has become more essential than ever. We, at SeqrHive, are dedicated to protecting your system, application, or your network from potential security breaches and vulnerabilities. With high-end penetration testing services, we make it cent per cent sure that your business-critical data stays beyond the reach of hackers.
             </p>
           </div>

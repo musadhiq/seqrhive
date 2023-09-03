@@ -1,9 +1,31 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
+import { useEffect } from "react";
+
 export default function Header() {
+
+  useEffect(() => {
+    let prevScrollpos = window.pageYOffset;
+    const handleScroll = () => {
+      const currentScrollpos = window.pageYOffset;
+      if (prevScrollpos > currentScrollpos) {
+        document.getElementById("navbar").style.top = "10px";
+      } else {
+        document.getElementById("navbar").style.top = "-100px";
+      }
+      prevScrollpos = currentScrollpos;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <div className="grotesk mt-3 mb-16 flex items-center justify-between py-4  sm:mx-0 sm:mb-20 sm:px-0 md:px-6">
+      <div className="grotesk mt-3 mb-16 flex items-center justify-between py-1  sm:mx-0 sm:mb-20 sm:px-0 md:px-6 navbox" id="navbar">
         <div className="mt-4 inline-block pb-4 ">
           <a href="/" className="align-middle text-3xl font-bold text-black">
             SeqrHive
