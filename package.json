@@ -1,6 +1,6 @@
 {
-  "name": "nine4-4",
-  "version": "0.1.0",
+  "name": "sqerhive",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
